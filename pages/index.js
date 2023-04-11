@@ -11,21 +11,31 @@ export default function Home({ posts }) {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="charles Blog w/ markdown" />
+
+        <meta name="description" content="歡迎來到我的開發博客！這裡分享網頁開發、程式語言、框架和工具相關經驗和知識。" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="查爾斯文章坊" />
-        <meta property="og:description" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:site_name" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:description" content="歡迎來到我的開發博客！這裡分享網頁開發、程式語言、框架和工具相關經驗和知識。" />
+        <meta property="og:url" content="https://postsblogger.vercel.app" />
+        <meta property="og:site_name" content="查爾斯文章坊" />
+        <meta property="og:image" content="./cover.png" />
+        <meta property="article:publisher" content="查爾斯" />
+
         <meta name="keywords" content="单元测试, CharlesSin个人博客, React, PHP 8, Python, Django, Tailwind, Bootstrap, JavaScript性能"></meta>
-        <meta name="google-site-verification" content="L3UxEUxOpbpZgzYHAyZGHNnP1xJcvT6IIkQjXssUU8U" />
 
         <title>Dev Blog</title>
 
-        <link rel="icon" href="/vercel.svg" />
-        <link rel="canonical" href="" />
-        <link rel="alternate" href="" hrefLang="ZH-CN" />
+        <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
+        <link rel="apple-touch-icon" sizes="96x96" href="./favicon96.ico"></link>
+        <link rel="canonical" href="https://postsblogger.vercel.app" />
+        <link rel="alternate" href="https://postsblogger.vercel.app" hrefLang="ZH-CN" />
+        <link rel="pingback" href="https://postsblogger.vercel.app"></link>
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@查爾斯" />
+        <meta name="twitter:creator" content="@查爾斯" />
+        <meta name="twitter:description" content="歡迎來到我的開發博客！這裡分享網頁開發、程式語言、框架和工具相關經驗和知識。" />
+        <meta name="twitter:image" content="./cover.png" />
       </Head>
 
       <div className="posts">
