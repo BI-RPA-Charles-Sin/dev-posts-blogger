@@ -2,14 +2,14 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Head from "next/head";
-import { Html } from "next/document";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
 
 export default function Home({ posts }) {
   return (
-    <Html lang="zh-Hans">
+    <div>
       <Head>
+        <html lang="zh-Hans" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -46,7 +46,7 @@ export default function Home({ posts }) {
           <Post key={index} post={post} />
         ))}
       </div>
-    </Html>
+    </div>
   );
 }
 
