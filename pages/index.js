@@ -7,7 +7,7 @@ import { sortByDate } from "../utils";
 
 export default function Home({ posts }) {
   return (
-    <div>
+    <Html lang="zh-Hans">
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -45,7 +45,7 @@ export default function Home({ posts }) {
           <Post key={index} post={post} />
         ))}
       </div>
-    </div>
+    </Html>
   );
 }
 
