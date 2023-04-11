@@ -36,6 +36,8 @@ export default function Home({ posts }) {
         <meta name="twitter:creator" content="@查爾斯" />
         <meta name="twitter:description" content="歡迎來到我的開發博客！這裡分享網頁開發、程式語言、框架和工具相關經驗和知識。" />
         <meta name="twitter:image" content="./cover.png" />
+
+        <meta name="google-site-verification" content="L3UxEUxOpbpZgzYHAyZGHNnP1xJcvT6IIkQjXssUU8U" />
       </Head>
 
       <div className="posts">
