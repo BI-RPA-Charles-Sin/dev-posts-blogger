@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Head from "next/head";
+import { Html } from "next/document";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
 
